@@ -1,0 +1,7 @@
+# /etc/caddy/Caddyfile — замените домен; Caddy сам получит HTTPS-сертификат
+hub.example.ru {
+	request_body {
+		max_size 110MB
+	}
+	reverse_proxy 127.0.0.1:3000
+}

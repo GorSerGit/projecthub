@@ -1,0 +1,25 @@
+# ── Данные и секреты рабочего экземпляра (никогда не коммитить) ──
+users.json
+settings.json
+.jwt-secret
+mail-log.json
+data/
+spaces/
+uploads/
+*.bak
+.env
+.env.*
+
+# ── Локальное, не относится к проекту ──
+_old_version/
+kaggle_notebooks/
+features.js
+.claude/
+
+# ── Зависимости / ОС / IDE ──
+node_modules/
+npm-debug.log*
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
